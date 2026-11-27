@@ -41,8 +41,8 @@ PixelLab 是一个运行在浏览器中的视觉计算交互实验室，将照�
 安装 Git 和 Python 3 后执行：
 
 ```bash
-git clone https://github.com/lkn1234566/lkn-1.0.git
-cd lkn-1.0
+git clone https://github.com/lkn1234566/PixelLab.git
+cd PixelLab
 python3 -m http.server 8000 --bind 127.0.0.1
 ```
 
@@ -221,7 +221,7 @@ server {
 
 图像计算在浏览器端进行，当前实现没有接收照片或摄像头帧的上传后端。摄像头仅在点击开启并获得浏览器授权后使用；离开照片工作区或页面时会释放对应媒体流。
 
-欢迎通过 [Issues](https://github.com/lkn1234566/lkn-1.0/issues) 提交问题或改进建议。反馈计算差异时，请附上输入示例、核矩阵、α、Padding、后处理、增益，以及浏览器版本，便于复现。
+欢迎通过 [Issues](https://github.com/lkn1234566/PixelLab/issues) 提交问题或改进建议。反馈计算差异时，请附上输入示例、核矩阵、α、Padding、后处理、增益，以及浏览器版本，便于复现。
 
 ## 参考资料
 
