@@ -161,7 +161,7 @@ $$
 普通滤波的输出按以下方式映射：
 
 $$
-o(x,y)=\operatorname{clip}_{[0,255]}\left(\operatorname{round}\left(g\,T(r(x,y))+b\right)\right)
+o(x,y)=\mathrm{clip}_{[0,255]}\left(\mathrm{round}\left(g\,T(r(x,y))+b\right)\right)
 $$
 
 `g` 为增益。Clamp 对应 `T(r)=r, b=0`；Abs 对应 `T(r)=|r|, b=0`；偏移模式对应 `T(r)=r, b=128`。特征阵列的原始响应、ReLU 与池化阶段另行保留浮点中间值。
